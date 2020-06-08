@@ -7,7 +7,7 @@ print, text="";
 
 
 !Install Crab Cavities for the weak beam
-exec, check_and_install_crabcavities;
+!exec, check_and_install_crabcavities;
 
 on_disp = 0;
 

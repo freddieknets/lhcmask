@@ -91,8 +91,8 @@ par_install_crabcavities = 0;
 ! Beam-beam configuration !
 !*************************!
 
-par_on_collision         = 0;            ! If 1 lumi leveling in ip8 is applied and q/q' match is done with bb off 
 par_on_bb_switch         = 1;
+par_match_with_bb        = 1;            ! should be on at injection
 par_b_t_dist             = 25.;          ! bunch separation [ns]
 par_n_inside_D1          = 5;            ! default value for the number of additional parasitic encounters inside D1
 

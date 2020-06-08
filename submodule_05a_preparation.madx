@@ -1,0 +1,11 @@
+print, text="";
+print, text="";
+print, text="  --- Submodule 5a: preparation";
+print, text="  -----------------------------";
+print, text="";
+print, text="";
+
+
+!Install Crab Cavities for the weak beam
+exec, check_and_install_crabcavities;
+

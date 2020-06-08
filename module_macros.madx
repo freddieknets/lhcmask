@@ -16,3 +16,12 @@ use_and_store_for_matching: macro = {
 		value,pynom1,pynom2,pynom5,pynom8;
 	};
 };
+
+
+
+check_and_install_crabcavities: macro = {
+	if (crab_cavities_alread_installed==0 && par_install_crabcavities==1){
+  		crab_cavities_alread_installed=1;
+		call, file="tools/enable_crabcavities.madx";
+  	};
+};

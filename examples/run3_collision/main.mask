@@ -78,10 +78,12 @@ par_on_disp              = 1;
 ! Magnets of the experiments
 par_on_alice             = 1;
 par_on_lhcb              = 1;
-
 par_on_sol_atlas         = 0;
 par_on_sol_cms           = 0;
 par_on_sol_alice         = 0;
+
+! Crab cavities
+par_install_crabcavities = 0;
 
 
 !*************************!

@@ -83,6 +83,9 @@ par_on_sol_atlas         = 0;
 par_on_sol_cms           = 0;
 par_on_sol_alice         = 0;
 
+! Crab cavities
+par_install_crabcavities = 0;
+
 
 !*************************!
 ! Beam-beam configuration !

@@ -3,7 +3,8 @@
 !*************************!
 
 ! Check documentation at http://lhcmaskdoc.web.cern.ch/mainmask/
-system, "ln -fns /afs/cern.ch/eng/tracking-tools tracking_tools";
+!system, "ln -fns /afs/cern.ch/eng/tracking-tools tracking_tools";
+system, "ln -fns /afs/cern.ch/user/f/fvanderv/work/projects/MaskDevelopment tracking_tools";
 
 ! Mask code folder
 system, "ln -fns tracking_tools/modules modules";
@@ -82,6 +83,9 @@ par_on_sol_atlas         = 0;
 par_on_sol_cms           = 0;
 par_on_sol_alice         = 0;
 
+! Crab cavities
+par_install_crabcavities = 0;
+
 
 !*************************!
 ! Beam-beam configuration !
@@ -96,8 +100,6 @@ par_nho_IR1              = 11;           ! number of slices for head-on in IR1 (
 par_nho_IR2              = 11;           ! number of slices for head-on in IR2 (between 0 and 201)
 par_nho_IR5              = 11;           ! number of slices for head-on in IR5 (between 0 and 201)
 par_nho_IR8              = 11;           ! number of slices for head-on in IR8 (between 0 and 201)
-
-par_install_crabcavities = 0;
 
 
 !*************************!
